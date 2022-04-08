@@ -26,4 +26,13 @@ Functional tests can be any of the above, they focuss on user flow.
 
 CODE-BASED tests == testing implementation.
 FUNCTIONAL tests == testing behavior.
+
+Removing data-test attributes:
+npm install --save-dev babel-plugin-react-remove-properties
+npm run eject
+Update babel config
+npm run build
+Data-test attributes are gone!
+
+
 */
